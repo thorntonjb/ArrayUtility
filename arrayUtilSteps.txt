@@ -1,0 +1,24 @@
+Operation 1: Find the smallest number
+    1) create variable String smallestNumber
+    2) find if array has more than 0 numbers (if 0, return 0)
+    3) if array has more than 1 number, start for loop (length of array)
+    4) traverse array in loop 
+        a) if arrayName[index + 1] < arrayName[index], smallestNumber = arrayName[index + 1]
+
+Operation 2: Find the largest number
+    1) create variable String smallestNumber
+    2) find if array has more than 0 numbers (if 0, return 0)
+    3) if array has more than 1 number, start for loop (repeats for length of the array)
+    4) traverse array in loop 
+        a) if arrayName[index + 1] > arrayName[index], smallestNumber = arrayName[index + 1]
+
+Operation 3: Determine the number of unique values in array
+    1) create variable int countOfUniques
+    2) create variable String temporaryNumber
+    3) create variable int testNumberIndex = 0
+    4) find if array has more than 0 numbers (if 0, return 0)
+    5) if array has more than 1 number, start for loop (repeats for length of the array)
+        A) assign temporaryNumber = arrayName[testNumberIndex]
+        B) test temporaryNumber with each index in the array
+            a) if (temporaryNumber != arrayName[i]) { countOfUniques++ }
+            b) testNumberIndex++;
