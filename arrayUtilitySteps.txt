@@ -1,12 +1,12 @@
 Operation 1: Find the smallest number
-    1) create variable String smallestNumber
+    1) create variable int smallestNumber
     2) find if array has more than 0 numbers (if 0, return 0)
     3) if array has more than 1 number, start for loop (length of array)
     4) traverse array in loop 
         a) if arrayName[index + 1] < arrayName[index], smallestNumber = arrayName[index + 1]
 
 Operation 2: Find the largest number
-    1) create variable String smallestNumber
+    1) create variable int largestNumber
     2) find if array has more than 0 numbers (if 0, return 0)
     3) if array has more than 1 number, start for loop (repeats for length of the array)
     4) traverse array in loop 
