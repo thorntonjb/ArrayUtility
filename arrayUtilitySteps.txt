@@ -14,7 +14,7 @@ Operation 2: Find the largest number
 
 Operation 3: Determine the number of unique values in array
     1) create variable int countOfUniques
-    2) create variable String temporaryNumber
+    2) create variable int temporaryNumber
     3) create variable int testNumberIndex = 0
     4) find if array has more than 0 numbers (if 0, return 0)
     5) if array has more than 1 number, start for loop (repeats for length of the array)

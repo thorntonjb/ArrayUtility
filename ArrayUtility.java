@@ -54,6 +54,30 @@ public class ArrayUtility
 
     public int countUniqueIntegers()
     {
-        return 0;
+        int numberOfUniques = 0;
+        if (intArray.length == 0) { return 0; }
+        else 
+        {
+            
+            boolean checkCount = true;
+            for (int i = 0; i < intArray.length; i++)
+            {
+                for (int j = i + 1; j < intArray.length; j++)
+                {
+                    if (intArray[j] == intArray[i])
+                    {
+                        checkCount = false;
+                    } // end if 
+                    
+                } // end inner loop
+                if (checkCount == true)
+                {
+                    numberOfUniques++;
+                } // end if
+                checkCount = true;
+            } // end outer loop
+        } // end if 
+        return numberOfUniques;
+
     }
 }
